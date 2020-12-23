@@ -1,11 +1,13 @@
 # Mongo observer address
-mongo_observer: 'user_mongoDB:27017' #'bonncuda:27017'
+mongo_observer: 'user_mongoDB:27017'
 # Name of the dataset
 dataset_name: "example_dataset"
 # Which domains to transform between, the transformation from A->B is used for evaluating the best epoch
 transform_between: ["Source1", "Source2"]
 # Folder containing all data
-dataset_lowest_folder: "/home/bias_transfer_microscopy/Code/data/"
+dataset_lowest_folder: "/home/podometric_u_net/unet_cyclegan/data/example_dataset/"
+# Optional suffix that is included in the names of the .csv files, e.g. "train" + csv_suffix + ".csv"
+csv_suffix: ""
 # Whether to load a specific epoch
 load_epoch : null
 # What to execute

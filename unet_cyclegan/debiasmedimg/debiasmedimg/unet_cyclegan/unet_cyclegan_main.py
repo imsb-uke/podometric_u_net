@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import tensorflow as tf
 import debiasmedimg.settings as settings
-from debiasmedimg.cyclegan.util import normalize_for_display, normalize_for_evaluation, get_filenames, \
+from debiasmedimg.unet_cyclegan.util import normalize_for_display, normalize_for_evaluation, get_filenames, \
     get_filtered_filenames, get_sample_from_path, get_real_samples, laplacian_upsampling, save_to_csv, Logger, \
     define_discriminator, ssim_score, get_fid, get_all_samples, create_patches
 from .util import define_unet_generator
